@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.min.js"></script>
+<body>
+    <div><h1>PAINT DE TEMU</h1></div>
+    <h1 style="color: rgb(148, 12, 53);">LA K</h1>
+        
+
+</body>
+funcion setup() {
+    createCanvas(400, 400);
+    background(220);
+    line(0, 0, 400, 400);
+    line(400, 400, 0, 0);
+    decribe("Linea diagonal");
+    describe("Linea diagonal");
+}
+<script>
+    let agelopez = 18;
+    let agemariana =18;
+    let agetotal = 0;
+    let nombrelopez = "Lopez ";
+    let nombremariana = "Mariana "; 
+    console.log(agetotal);
+    console.log(nombrelopez + "tiene " + (agelopez) + " años");
+    console.log(nombremariana + "tiene " + (agemariana) + " años");
+    console.log("El total de edades es: " + (agelopez + agemariana));
+    if (agelopez > agemariana) {
+        console.log(nombrelopez + " es mayor que " + nombremariana);
+    } else if (agelopez < agemariana) {
+        console.log(nombremariana + " es mayor que " + nombrelopez);
+    } else {
+        console.log(nombrelopez + " y " + nombremariana + " tienen la misma edad");
+    }
+    calculeteage = () => {
+        //age += 1;
+        agetotal = agelopez + agemariana;
+    }
+    calculeteage();
+    console.log(agetotal);
+</script>
+
+</html>
